@@ -14,7 +14,8 @@ const Layout = (props) => {
 
 const Wrapper = styled.div`
  min-width: 480px;
- 
+ max-width: 1115px;
+ margin: 0 auto;
 `;
 
 export default Layout;
