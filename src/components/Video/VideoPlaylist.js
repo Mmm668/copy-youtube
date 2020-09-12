@@ -4,10 +4,10 @@ import InfiniteScroll from 'react-infinite-scroll-component';
 import {Switch} from "antd";
 import VideoItem from "./VideoItem";
 
-const VideoPlaylist = (props) => {
+const VideoPlaylist = ({className}) => {
 
     return (
-        <Wrapper>
+        <Wrapper className={className}>
             {/* 무한 스크롤*/}
             <Top>
                 <LeftWrap>다음 동영상</LeftWrap>

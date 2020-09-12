@@ -52,7 +52,9 @@ const Watch = (props) => {
 const Wrapper = styled.div`
   display: flex;
   .rwd{
-    display: none;
+    @media only screen and (max-width: 497px) {
+      display: none;
+    }
   }
 `;
 const VideoPanel = styled.div`
